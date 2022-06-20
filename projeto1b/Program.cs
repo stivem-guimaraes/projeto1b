@@ -10,6 +10,17 @@ namespace projeto1b
     {
         static void Main(string[] args)
         {
+           Pessoa aluno = new Pessoa();
+           Pessoa professor = new Pessoa();
+           aluno.nome = "stivem";
+           professor.nome = "prof.jeferson";
+
+           Console.WriteLine(aluno.nome);
+           Console.WriteLine(professor.nome);
+
+            Console.ReadKey();
+
+            
         }
     }
 }
